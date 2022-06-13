@@ -9,3 +9,6 @@ Bigtreetech octopus github:
 
 ## 2. Set jumpers to UART mode for stepper motor drivers
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/uart-jumpers.png" width="650">
+
+## 3. Wiring between PSU and board
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/power_wiring.png" width="650">
