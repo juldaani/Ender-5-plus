@@ -12,3 +12,4 @@ Bigtreetech octopus github:
 
 ## 3. Wiring between PSU and board
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/power_wiring.png" width="650">
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/power-wiring2.png" width="650">
