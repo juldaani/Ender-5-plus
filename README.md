@@ -1,5 +1,5 @@
 # Ender-5-plus
-Installation instructions of BIGTREETECH BTT OCTOPUS V1.1 32BIT + TMC2209  + OctoPi + Klipper for Ender 5 Plus
+Installation instructions of BIGTREETECH BTT OCTOPUS V1.1 32BIT + TMC2209  + OctoPi + Klipper for Ender 5 Plus (original hardware)
 
 ## 1. Remove jumper
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/mcu-jumper2.png" width="650">
