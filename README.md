@@ -28,4 +28,4 @@ This is the connector attached to the Octopus board. Swap 1st and 3rd (from the 
 
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/stepper_wires.jpg" width="350">
 
-In the image wires are in the original Ender 5 stock configuration.
+In the image wires are in the original Ender 5 stock configuration (before swap).
