@@ -19,3 +19,6 @@ If there are any jumpers attached remove them before proceeding.
 
 ## 5. Hot bed wiring
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/hot_bed.jpg" width="650">
+
+## 6. Install TMC2209 stepper motor drivers
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/stepper_drivers.jpg" width="650">
