@@ -27,3 +27,5 @@ If there are any jumpers attached remove them before proceeding.
 This is the connector attached to the Octopus board. Swap 1st and 3rd (from the left) wires. Notice the orientation of the connector. Do this for X, Y, Z and extruder wires.
 
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/stepper_wires.jpg" width="350">
+
+In the image wires are in the original Ender 5 stock configuration.
