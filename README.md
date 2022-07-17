@@ -36,3 +36,6 @@ This is the connector attached to the Octopus board. Swap 1st and 3rd (from the 
 - MOTOR2_1: Z
 - MOTOR3: Z
 - MOTOR4: EXTRUDER (E)
+
+## 9. Connect Nozzle Heat to HE0
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/nozzle_heat.jpg" width="650">
