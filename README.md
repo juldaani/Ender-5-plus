@@ -31,8 +31,8 @@ This is the connector attached to the Octopus board. Swap 1st and 3rd (from the 
 ## 8. Plug in stepper motor cables
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/stepper_wires2.jpg" width="650">
 
-MOTOR0   - X
-MOTOR1   - Y
-MOTOR2_1 - Z
-MOTOR3   - Z
-MOTOR4   - EXTRUDER (E)
+- MOTOR0: X
+- MOTOR1: Y
+- MOTOR2_1: Z
+- MOTOR3: Z
+- MOTOR4: EXTRUDER (E)
