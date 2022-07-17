@@ -7,7 +7,7 @@ Bigtreetech octopus github:
 ## 1. Remove all jumpers from the board
 If there are any jumpers attached remove them before proceeding.
 
-## 2. Remove jumper MCU power jumper
+## 2. Remove MCU power jumper
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/mcu-jumper2.png" width="650">
 
 ## 3. Set jumpers to UART mode for stepper motor drivers
