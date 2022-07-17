@@ -45,3 +45,12 @@ This is the connector attached to the Octopus board. Swap 1st and 3rd (from the 
 
 ## 11. Connect Nozzle Thermistor to T0
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/nozzle_thermistor.jpg" width="550">
+
+## 12. Connect BlTouch
+Change original connector to Dupont connector:
+
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/bltouch2.jpg" width="350">
+
+Swap wires in connectors according to the image and plug connectors to BlTouch pins:
+
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/bltouch.jpg" width="650">
