@@ -39,3 +39,6 @@ This is the connector attached to the Octopus board. Swap 1st and 3rd (from the 
 
 ## 9. Connect Nozzle Heat to HE0
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/nozzle_heat.jpg" width="650">
+
+## 10. Connect Bed Thermistor to TB
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/bed_thermistor.jpg" width="550">
