@@ -4,6 +4,9 @@ Installation instructions of BIGTREETECH BTT OCTOPUS V1.1 32BIT + TMC2209  + Oct
 Bigtreetech octopus github:
 (https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0)
 
+Some Octopus installation guide:
+https://www.makenprint.uk/3d-printing/3d-printing-guides/3d-printer-mainboard-installation-guides/btt-octopus-guides/btt-octopus-setup-guide/
+
 ## 1. Remove all jumpers from the board
 If there are any jumpers attached remove them before proceeding.
 
