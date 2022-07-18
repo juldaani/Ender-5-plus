@@ -57,3 +57,6 @@ Change original connector to Dupont connector:
 Swap wires in connectors according to the image and plug connectors to BlTouch pins:
 
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/bltouch.jpg" width="650">
+
+## 13. Connect filament runout sensor to DIAG4
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/filament.jpg" width="550">
