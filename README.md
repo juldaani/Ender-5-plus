@@ -83,7 +83,7 @@ Swap wires in connectors according to the image and plug connectors to BlTouch p
 
 # Install OctoPi and OctoPrint on Raspberry Pi
 
-## 1. Download OctoPi image
+## 1. Download latest stable OctoPi image
 https://github.com/guysoft/OctoPi#where-to-get-it
 
 ## 2. Flash OctoPi image on the SD card
