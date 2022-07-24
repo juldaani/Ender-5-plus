@@ -81,7 +81,19 @@ Swap wires in connectors according to the image and plug connectors to BlTouch p
 ## 19. Plug extruder fan to FAN6 (always on)
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/extruder_fan.jpg" width="650">
 
-# Install OctoPi and OctoPrint on Raspberry Pi
+# Install OctoPi+OctoPrint+Klipper on Raspberry Pi
+
+## 1. Download Raspberry Pi Imager
+https://www.raspberrypi.com/software/
+
+## 2. Install OctoKlipperPi with Raspberry Pi Imager
+- CHOOSE OS -> Other specific-purpose OS -> 3D printing -> OctoKlipperPi
+- Hit CTRL+SHIFT+X to access advanced options
+- Enable SSH and set username and password
+- Configure wifi
+- Set locale settings
+
+
 
 ## 1. Download latest stable OctoPi image
 https://github.com/guysoft/OctoPi#where-to-get-it
