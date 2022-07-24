@@ -87,17 +87,9 @@ Swap wires in connectors according to the image and plug connectors to BlTouch p
 https://www.raspberrypi.com/software/
 
 ## 2. Install OctoKlipperPi with Raspberry Pi Imager
-- CHOOSE OS -> Other specific-purpose OS -> 3D printing -> OctoKlipperPi
+- CHOOSE OS -> Other specific-purpose OS -> 3D printing -> OctoPi
 - Hit CTRL+SHIFT+X to access advanced options
 - Enable SSH and set username and password
-- Configure wifi
-- Set locale settings
-
-
-
-## 1. Download latest stable OctoPi image
-https://github.com/guysoft/OctoPi#where-to-get-it
-
-## 2. Flash OctoPi image on the SD card
-Download Etcher (https://www.balena.io/etcher/) and use it to flash the OctoPi image on the SD card.
+- Configure wireless LAN (SSID, Password, Wireless LAN country)
+- Set locale settings (Time zone, Keyboard layout)
 
