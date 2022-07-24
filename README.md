@@ -81,7 +81,7 @@ Swap wires in connectors according to the image and plug connectors to BlTouch p
 ## 19. Plug extruder fan to FAN6 (always on)
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/extruder_fan.jpg" width="650">
 
-# Install OctoPi+OctoPrint+Klipper on Raspberry Pi
+# Install OctoPi+OctoPrint+Klipper on Raspberry Pi+Octopus
 
 ## 1. Download Raspberry Pi Imager
 https://www.raspberrypi.com/software/
@@ -104,3 +104,9 @@ https://www.klipper3d.org/Installation.html#prepping-an-os-image
 1. Connect to Raspberry with SSH. In Linux: ```ssh pi@octopi.local```
 2. ```git clone https://github.com/Klipper3d/klipper```
 3. ```./klipper/scripts/install-octopi.sh```
+
+## 5. Build and flash the micro-controller
+https://www.klipper3d.org/Installation.html#building-and-flashing-the-micro-controller
+1. ```cd ~/klipper/```
+2. ```export LC_ALL=en_GB.UTF-8```
+3. ```make menuconfig```
