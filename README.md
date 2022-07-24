@@ -98,3 +98,9 @@ https://www.raspberrypi.com/software/
 - Put SD card in
 - Type "http://octopi.local" to browser
 - If everything works as expected OctoPrint web page should be opened
+
+## 4. Install Klipper
+https://www.klipper3d.org/Installation.html#prepping-an-os-image
+1. Connect to Raspberry with SSH. In Linux: ```ssh pi@octopi.local```
+2. ```git clone https://github.com/Klipper3d/klipper```
+3. ```./klipper/scripts/install-octopi.sh```
