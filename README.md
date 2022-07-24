@@ -60,3 +60,6 @@ Swap wires in connectors according to the image and plug connectors to BlTouch p
 
 ## 13. Connect filament runout sensor to DIAG4
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/filament.jpg" width="550">
+
+## 14. Set fan jumpers
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/fan_jumpers.png" width="950">
