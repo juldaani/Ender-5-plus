@@ -93,3 +93,8 @@ https://www.raspberrypi.com/software/
 - Configure wireless LAN (SSID, Password, Wireless LAN country)
 - Set locale settings (Time zone, Keyboard layout)
 
+## 3. Check OctoPi is working
+- Plug in power input cable into Raspberry USB-C slot
+- Put SD card in
+- Type "http://octopi.local" to browser
+- If everything works as expected OctoPrint web page should be opened
