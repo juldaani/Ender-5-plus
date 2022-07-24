@@ -80,3 +80,12 @@ Swap wires in connectors according to the image and plug connectors to BlTouch p
 
 ## 19. Plug extruder fan to FAN6 (always on)
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/extruder_fan.jpg" width="650">
+
+# Install OctoPi and OctoPrint on Raspberry Pi
+
+## 1. Download OctoPi image
+https://github.com/guysoft/OctoPi#where-to-get-it
+
+## 2. Flash OctoPi image on the SD card
+Download Etcher (https://www.balena.io/etcher/) and use it to flash the OctoPi image on the SD card.
+
