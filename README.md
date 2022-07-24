@@ -63,3 +63,6 @@ Swap wires in connectors according to the image and plug connectors to BlTouch p
 
 ## 14. Set fan jumpers
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/fan_jumpers.png" width="950">
+
+## 15. Plug part cooling fan to FAN0 (PWM)
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/part_cooling_fan.jpg" width="650">
