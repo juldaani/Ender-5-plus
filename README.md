@@ -7,6 +7,8 @@ Bigtreetech octopus github:
 Some Octopus installation guide:
 https://www.makenprint.uk/3d-printing/3d-printing-guides/3d-printer-mainboard-installation-guides/btt-octopus-guides/btt-octopus-setup-guide/
 
+# Board wirings
+
 ## 1. Remove all jumpers from the board
 If there are any jumpers attached remove them before proceeding.
 
