@@ -66,3 +66,9 @@ Swap wires in connectors according to the image and plug connectors to BlTouch p
 
 ## 15. Plug part cooling fan to FAN0 (PWM)
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/part_cooling_fan.jpg" width="650">
+
+## 15. Plug mainboard fan to FAN7 (always on)
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/mainboard_fan.jpg" width="650">
+
+## 16. Plug extruder fan to FAN6 (always on)
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/extruder_fan.jpg" width="650">
