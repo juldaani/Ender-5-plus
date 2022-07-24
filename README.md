@@ -86,7 +86,7 @@ Swap wires in connectors according to the image and plug connectors to BlTouch p
 ## 1. Download Raspberry Pi Imager
 https://www.raspberrypi.com/software/
 
-## 2. Install OctoKlipperPi with Raspberry Pi Imager
+## 2. Install OctoPi using Raspberry Pi Imager
 - CHOOSE OS -> Other specific-purpose OS -> 3D printing -> OctoPi
 - Hit CTRL+SHIFT+X to access advanced options
 - Enable SSH and set username and password
