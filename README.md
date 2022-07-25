@@ -117,7 +117,7 @@ https://www.raspberrypi.com/software/
 https://www.klipper3d.org/Installation.html#prepping-an-os-image
 1. Check that connections and wires are ok (no short circuits etc.)
 2. Switch power supply on. Beware that the input voltage to the PSU might be fatal so don't put your fingers to wrong places.  
-3. Connect to Raspberry with SSH. In Linux: ```ssh pi@octopi.local```
+3. Connect to Raspberry via SSH. Linux command: ```ssh pi@octopi.local```
 4. ```git clone https://github.com/Klipper3d/klipper```
 5. ```./klipper/scripts/install-octopi.sh```
 
