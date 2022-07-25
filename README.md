@@ -115,11 +115,13 @@ https://www.raspberrypi.com/software/
 
 ## 4. Install Klipper
 https://www.klipper3d.org/Installation.html#prepping-an-os-image
-1. Connect to Raspberry with SSH. In Linux: ```ssh pi@octopi.local```
-2. ```git clone https://github.com/Klipper3d/klipper```
-3. ```./klipper/scripts/install-octopi.sh```
+1. Check that connections and wires are ok (no short circuits etc.)
+2. Switch power supply on. Beware that the input voltage to the PSU might be fatal so don't put your fingers to wrong places.  
+3. Connect to Raspberry with SSH. In Linux: ```ssh pi@octopi.local```
+4. ```git clone https://github.com/Klipper3d/klipper```
+5. ```./klipper/scripts/install-octopi.sh```
 
-## 5. Build and flash the micro-controller
+## 5. Build and flash Octopus board
 https://www.klipper3d.org/Installation.html#building-and-flashing-the-micro-controller
 1. ```cd ~/klipper/```
 2. ```export LC_ALL=en_GB.UTF-8```
