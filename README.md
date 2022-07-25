@@ -1,5 +1,11 @@
 # Ender-5-plus
-Installation instructions of BIGTREETECH BTT OCTOPUS V1.1 32BIT + TMC2209 + Raspberry Pi 4 Model B 8GB + OctoPi + Klipper for Ender 5 Plus (original hardware)
+Installation instructions for Ender 5 Plus (original hardware):
+- BIGTREETECH BTT OCTOPUS V1.1 32BIT 
+- TMC2209
+- Raspberry Pi 4 Model B 8GB
+- OctoPi
+- OctoPrint
+- Klipper
 
 Bigtreetech octopus github:
 (https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0)
@@ -82,7 +88,6 @@ Swap wires in connectors according to the image and plug connectors to BlTouch p
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/extruder_fan.jpg" width="650">
 
 # Install OctoPi+OctoPrint+Klipper on Raspberry Pi+Octopus
-Tested with following VERSIONS klipper, Octopi, Octoprint....
 
 ## 1. Download Raspberry Pi Imager
 https://www.raspberrypi.com/software/
