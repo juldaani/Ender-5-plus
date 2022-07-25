@@ -1,5 +1,5 @@
 # Ender-5-plus
-Installation instructions of BIGTREETECH BTT OCTOPUS V1.1 32BIT + TMC2209 + Raspberry Pi 4 8GB + OctoPi + Klipper for Ender 5 Plus (original hardware)
+Installation instructions of BIGTREETECH BTT OCTOPUS V1.1 32BIT + TMC2209 + Raspberry Pi 4 Model B 8GB + OctoPi + Klipper for Ender 5 Plus (original hardware)
 
 Bigtreetech octopus github:
 (https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0)
