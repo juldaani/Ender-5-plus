@@ -87,6 +87,14 @@ Swap wires in connectors according to the image and plug connectors to BlTouch p
 ## 19. Plug extruder fan to FAN6 (always on)
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/extruder_fan.jpg" width="650">
 
+## 20. Connect Raspberry to Octopus board
+- Connect Raspberry and Octopus via USB-C
+- Power Raspberry through GPIO pins
+- Raspberry pins 2,4 (5V) -> Octopus Raspberry (J26 connector) 5V pins
+- Raspberry pins 6,9 (GND) -> Octopus Raspberry (J26 connector) GND pins
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/rasp_wires1.jpg" width="350">
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/rasp_wires2.jpg" width="450">
+
 # Install OctoPi+OctoPrint+Klipper on Raspberry Pi+Octopus
 
 ## 1. Download Raspberry Pi Imager
