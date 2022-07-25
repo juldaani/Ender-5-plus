@@ -10,7 +10,7 @@ Installation instructions for Ender 5 Plus (original hardware):
 Bigtreetech octopus github:
 (https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0)
 
-Some Octopus installation guide:
+Random Octopus installation guide:
 https://www.makenprint.uk/3d-printing/3d-printing-guides/3d-printer-mainboard-installation-guides/btt-octopus-guides/btt-octopus-setup-guide/
 
 # Board wirings
