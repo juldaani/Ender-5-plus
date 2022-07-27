@@ -144,3 +144,6 @@ https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Firmware/Kli
 13. "From your ssh session, run ```lsusb```. and find the ID of the dfu device. The device is typically named STM Device in DFU mode."
 14. "If you do not see a DFU device in the list, press the reset button next to the USB connector and run lsusb again."
 15. "Run ```make flash FLASH_DEVICE=1234:5678``` replace 1234:5678 with the ID from the previous step"
+16. Power everything off
+17. Remove jumper from BOOT0
+18. 
