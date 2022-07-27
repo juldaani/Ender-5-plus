@@ -142,4 +142,5 @@ https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Firmware/Kli
 11. "When flashing for the first time, make sure that OctoPrint is not connected directly to the printer (from the OctoPrint web page, under the "Connection" section, click "Disconnect")."
 12. "From your ssh session, run lsusb. and find the ID of the dfu device. The device is typically named STM Device in DFU mode."
 13. "If you do not see a DFU device in the list, press the reset button next to the USB connector and run lsusb again."
-14. 
+14. "Run ```make flash FLASH_DEVICE=1234:5678``` replace 1234:5678 with the ID from the previous step"
+15. 
