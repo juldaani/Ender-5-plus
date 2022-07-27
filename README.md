@@ -156,6 +156,7 @@ https://www.klipper3d.org/Installation.html#configuring-octoprint-to-use-klipper
 ## 7. Configure Klipper
 https://www.klipper3d.org/Installation.html#configuring-klipper
 
-1. ```cp ~/klipper/config/generic-bigtreetech-octopus.cfg ~/printer.cfg```
-2. ```ls /dev/serial/by-id/*```
-3. ```nano ~/printer.cfg```
+1. SSH into Raspberry
+2. ```cp ~/klipper/config/generic-bigtreetech-octopus.cfg ~/printer.cfg```
+3. ```ls /dev/serial/by-id/*```
+4. ```nano ~/printer.cfg```
