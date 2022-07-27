@@ -160,7 +160,9 @@ https://www.klipper3d.org/Installation.html#configuring-klipper
 2. ```cp ~/klipper/config/generic-bigtreetech-octopus.cfg ~/printer.cfg```
 3. Run ```ls /dev/serial/by-id/*``` command in Raspberry to get the ID number of the Octopus board.
 4. Run ```nano ~/printer.cfg``` and set the ID number under ```[mcu]``` section in printer.cfg: <br> ```serial: /dev/serial/by-id/usb-Klipper_stm32f446xx_0E002B00135053424E363620-if00```
-
-## 8. Connect wires
-1. Power everything off
-2. 
+5. Power everything off
+7. Connect wires to the printer
+8. Power on
+9. Open http://octopi.local and connect to the printer
+10. Open Terminal tab, type ```status``` and hit Send button.
+11. If everything is "status" command will report the printer is ready if the Klipper config file is successfully read and the micro-controller is successfully found and configured. 
