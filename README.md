@@ -127,6 +127,8 @@ https://www.klipper3d.org/Installation.html#building-and-flashing-the-micro-cont
 https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Firmware/Klipper#build-firmware-image
 
 https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Firmware/Klipper#option-1-dfu-firmware-install
+
+[https://docs.vorondesign.com/build/software/octopus_klipper.html](https://docs.vorondesign.com/build/software/octopus_klipper.html#option-2-dfu-firmware-install)
 1. SSH into raspberry. Linux command: ```ssh pi@octopi.local```
 2. ```cd ~/klipper/```
 3. ```export LC_ALL=en_GB.UTF-8```
@@ -136,4 +138,8 @@ https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Firmware/Kli
 7. Power everything off
 8. Install jumper to BOOT0 on Octopus board
 9. Power on
-10. SSH into raspberry
+10. SSH into Raspberry
+11. "When flashing for the first time, make sure that OctoPrint is not connected directly to the printer (from the OctoPrint web page, under the "Connection" section, click "Disconnect")."
+12. "From your ssh session, run lsusb. and find the ID of the dfu device. The device is typically named STM Device in DFU mode."
+13. "If you do not see a DFU device in the list, press the reset button next to the USB connector and run lsusb again."
+14. 
