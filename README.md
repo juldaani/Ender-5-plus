@@ -3,8 +3,8 @@ Installation instructions for Ender 5 Plus (original hardware):
 - BIGTREETECH BTT OCTOPUS V1.1 32BIT 
 - TMC2209
 - Raspberry Pi 4 Model B 8GB
-- OctoPi
-- OctoPrint
+- OctoPi 0.18.0
+- OctoPrint 1.8.1
 - Klipper
 
 Bigtreetech octopus github:
