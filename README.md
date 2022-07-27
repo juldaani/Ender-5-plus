@@ -149,3 +149,8 @@ https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Firmware/Kli
 18. Power on
 19. SSH into Raspberry
 20. "You can confirm that the flash was successful, by running ```ls /dev/serial/by-id```. If the flash was successful, this should now show a klipper device, similar to: <br><img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/dfu_flash.png" width="450"> "
+
+## 6. Configure OctoPrint to use Klipper
+https://www.klipper3d.org/Installation.html#configuring-octoprint-to-use-klipper
+
+## 7. 
