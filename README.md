@@ -158,5 +158,5 @@ https://www.klipper3d.org/Installation.html#configuring-klipper
 
 1. SSH into Raspberry
 2. ```cp ~/klipper/config/generic-bigtreetech-octopus.cfg ~/printer.cfg```
-3. ```ls /dev/serial/by-id/*```
-4. ```nano ~/printer.cfg```
+3. Run ```ls /dev/serial/by-id/*``` command in Raspberry to get the ID number of the Octopus board.
+4. Run ```nano ~/printer.cfg``` and set the ID number in printer.cfg: <br> ```[mcu] serial: /dev/serial/by-id/usb-Klipper_stm32f446xx_0E002B00135053424E363620-if00```
