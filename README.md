@@ -146,4 +146,4 @@ https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Firmware/Kli
 15. "Run ```make flash FLASH_DEVICE=1234:5678``` replace 1234:5678 with the ID from the previous step"
 16. Power everything off
 17. Remove jumper from BOOT0
-18. 
+18. "You can confirm that the flash was successful, by running ```ls /dev/serial/by-id```. If the flash was successful, this should now show a klipper device, similar to:"
