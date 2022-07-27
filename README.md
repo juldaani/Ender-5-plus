@@ -165,4 +165,4 @@ https://www.klipper3d.org/Installation.html#configuring-klipper
 8. Power on
 9. Open http://octopi.local and connect to the printer
 10. Open Terminal tab, type ```status``` and hit Send button.
-11. If everything is ok a "status" command will report the printer is ready if the Klipper config file is successfully read and the micro-controller is successfully found and configured. 
+11. If everything is ok a "status" command will report the printer is ready if the Klipper config file is successfully read and the micro-controller is successfully found and configured: <br> <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/status.png" width="550">
