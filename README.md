@@ -157,4 +157,5 @@ https://www.klipper3d.org/Installation.html#configuring-octoprint-to-use-klipper
 https://www.klipper3d.org/Installation.html#configuring-klipper
 
 1. ```cp ~/klipper/config/generic-bigtreetech-octopus.cfg ~/printer.cfg```
-2. ```nano ~/printer.cfg```
+2. ```ls /dev/serial/by-id/*```
+3. ```nano ~/printer.cfg```
