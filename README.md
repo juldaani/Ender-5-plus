@@ -133,3 +133,7 @@ https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Firmware/Kli
 4. ```make menuconfig```
 5. Set following configurations: <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/octopus_f446_klipper_menuconfig.png" width="850">
 6. ```make```
+7. Power everything off
+8. Install jumper to BOOT0 on Octopus board
+9. Power on
+10. SSH into raspberry
