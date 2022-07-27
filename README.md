@@ -153,4 +153,7 @@ https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Firmware/Kli
 ## 6. Configure OctoPrint to use Klipper
 https://www.klipper3d.org/Installation.html#configuring-octoprint-to-use-klipper
 
-## 7. 
+## 7. Configure Klipper
+https://www.klipper3d.org/Installation.html#configuring-klipper
+
+1. 
