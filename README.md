@@ -123,6 +123,13 @@ https://www.klipper3d.org/Installation.html#prepping-an-os-image
 
 ## 5. Build and flash Octopus board
 https://www.klipper3d.org/Installation.html#building-and-flashing-the-micro-controller
-1. ```cd ~/klipper/```
-2. ```export LC_ALL=en_GB.UTF-8```
-3. ```make menuconfig```
+
+https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Firmware/Klipper#build-firmware-image
+
+https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Firmware/Klipper#option-1-dfu-firmware-install
+1. SSH into raspberry. Linux command: ```ssh pi@octopi.local```
+2. ```cd ~/klipper/```
+3. ```export LC_ALL=en_GB.UTF-8```
+4. ```make menuconfig```
+5. Set following configurations: <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/octopus_f446_klipper_menuconfig.png" width="850">
+6. ```make```
