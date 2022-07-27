@@ -168,7 +168,7 @@ https://www.klipper3d.org/Installation.html#configuring-klipper
 11. If everything is ok a "status" command will report the printer is ready if the Klipper config file is successfully read and the micro-controller is successfully found and configured: <br> <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/status.png" width="550">
 
 ## 8. Customize printer.cfg
-1. To avoid serious mental health issues with nano text editor, install sshfs for mounting Raspberry's file system over SSH. Linux command: ```sudo apt install sshfs```
+1. For avoiding serious mental health issues with nano text editor, install sshfs for mounting Raspberry's file system over SSH. Linux command: ```sudo apt install sshfs```
 2. ```sudo mkdir /mnt/ender```
 3. Mount Raspberry's filesystem: ```sudo sshfs -o allow_other,default_permissions pi@octopi.local:/ /mnt/ender```
 4. Open printer configuration file with gedit: ```gedit /mnt/ender/home/pi/printer.cfg```
