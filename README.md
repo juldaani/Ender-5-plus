@@ -31,11 +31,6 @@ If there are any jumpers attached remove them before proceeding.
 ## 5. Install TMC2209 stepper motor drivers
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/stepper_drivers.jpg" width="650">
 
-## 6. Swap stepper motor connector wires
-This is the connector to be attached to the Octopus board. Swap 1st and 3rd (from the left) wires. Notice the orientation of the connector. Do this for X, Y, Z and extruder wires.
-
-<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/stepper_wires.jpg" width="350">
-
 ## 7. Plug in stepper motor cables
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/stepper_wires2.jpg" width="650">
 
