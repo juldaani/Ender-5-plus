@@ -170,8 +170,8 @@ https://www.klipper3d.org/Installation.html#configuring-klipper
 ## 8. Upload printer.cfg to raspberry
 
 
-### (Optional) Install sshfs (for easier editing of printer.cfg)
-1. For avoiding serious mental health issues with nano text editor, install sshfs for mounting Raspberry's file system over SSH. Linux command: ```sudo apt install sshfs```
+### (Optional) Install sshfs
+1. For avoiding serious mental health issues with nano text editor when customizing printer.cfg, install sshfs for mounting Raspberry's file system over SSH. Linux command: ```sudo apt install sshfs```
 2. ```sudo mkdir /mnt/ender```
 3. Mount Raspberry's filesystem: ```sudo sshfs -o allow_other,default_permissions pi@octopi.local:/ /mnt/ender```
 4. Open printer configuration file with gedit: ```gedit /mnt/ender/home/pi/printer.cfg```
