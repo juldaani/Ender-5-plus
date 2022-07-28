@@ -168,7 +168,11 @@ https://www.klipper3d.org/Installation.html#configuring-klipper
 11. If everything is ok a "status" command will report the printer is ready if the Klipper config file is successfully read and the micro-controller is successfully found and configured: <br> <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/status.png" width="550">
 
 ## 8. Upload printer.cfg to raspberry
+https://www.klipper3d.org/Installation.html#configuring-klipper
 
+"After creating and editing the file it will be necessary to issue a "restart" command in the OctoPrint web terminal to load the config. A "status" command will report the printer is ready if the Klipper config file is successfully read and the micro-controller is successfully found and configured.
+
+When customizing the printer.cfg file, it is not uncommon for Klipper to report a configuration error. If an error occurs, make any necessary corrections to the printer config file and issue "restart" until "status" reports the printer is ready."
 
 ### (Optional) Install sshfs
 1. For avoiding serious mental health issues with nano text editor when customizing printer.cfg, install sshfs for mounting Raspberry's file system over SSH. Linux command: ```sudo apt install sshfs```
