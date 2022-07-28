@@ -167,9 +167,8 @@ https://www.klipper3d.org/Installation.html#configuring-klipper
 10. Open Terminal tab, type ```status``` and hit Send button.
 11. If everything is ok a "status" command will report the printer is ready if the Klipper config file is successfully read and the micro-controller is successfully found and configured: <br> <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/status.png" width="550">
 
-
-
 ## 8. Upload printer.cfg to raspberry
+
 
 ### (Optional) Install sshfs (for easier editing of printer.cfg)
 1. For avoiding serious mental health issues with nano text editor, install sshfs for mounting Raspberry's file system over SSH. Linux command: ```sudo apt install sshfs```
