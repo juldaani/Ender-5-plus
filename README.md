@@ -205,3 +205,6 @@ https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-
 
 ### Bed mesh
 https://www.klipper3d.org/Bed_Mesh.html
+
+
+# Print mounts and install boards
