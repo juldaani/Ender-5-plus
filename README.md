@@ -193,5 +193,5 @@ https://www.klipper3d.org/BLTouch.html#initial-tests
 
 <i>"During calibration it may be necessary to set the printer's Z position_min to a negative number (eg, position_min = -2). The printer enforces boundary checks even during calibration routines. Setting a negative number allows the printer to move below the nominal position of the bed, which may help when trying to determine the actual bed position."</i> <b>(change this in printer.cfg under [stepper_z] section)</b>
 
-### Bed screws
+### Bed tilt using bed levelling screws
 https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe
