@@ -192,12 +192,12 @@ https://www.klipper3d.org/Installation.html#configuring-klipper
 
 When customizing the printer.cfg file, it is not uncommon for Klipper to report a configuration error. If an error occurs, make any necessary corrections to the printer config file and issue "restart" until "status" reports the printer is ready."</i>
 
-## 10. Do configuration checks
+## 10. Configuration checks
 https://www.klipper3d.org/Config_checks.html
 
 https://www.klipper3d.org/BLTouch.html#initial-tests
 
-## 11. Do calibrations and adjustments
+## 11. Calibrations and adjustments
 ### BLTouch and nozzle offsets
 [https://www.klipper3d.org/Probe_Calibrate.html](https://www.klipper3d.org/Probe_Calibrate.html)
 
@@ -209,6 +209,8 @@ https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-
 ### Bed mesh
 https://www.klipper3d.org/Bed_Mesh.html
 
+### Extruder rotation distance
+https://www.klipper3d.org/Rotation_Distance.html#calibrating-rotation_distance-on-extruders
 
 # Physical installation of Octopus board and Raspberry Pi
 FreeCAD and stl models: https://github.com/juldaani/Ender-5-plus/tree/main/3d-models
