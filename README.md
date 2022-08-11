@@ -176,7 +176,7 @@ Install sshfs (for mounting Raspberry's file system over SSH) to avoid serious m
 2. ```sudo mkdir /mnt/ender```
 3. Mount Raspberry's filesystem: ```sudo sshfs -o allow_other,default_permissions pi@octopi.local:/ /mnt/ender```
 4. Open printer configuration file with gedit: ```gedit /mnt/ender/home/pi/printer.cfg```
-5. Set gedit Highlight Mode to YAML to make text more readable
+5. Set gedit Highlight Mode to YAML to make the text more readable
 
 
 
