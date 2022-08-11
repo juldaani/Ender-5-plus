@@ -169,7 +169,7 @@ https://www.klipper3d.org/Installation.html#configuring-klipper
 
 When customizing the printer.cfg file, it is not uncommon for Klipper to report a configuration error. If an error occurs, make any necessary corrections to the printer config file and issue "restart" until "status" reports the printer is ready."
 
-### (Optional) Install sshfs
+## 9. (Optional) Install sshfs
 1. For avoiding serious mental health issues with nano text editor when customizing printer.cfg, install sshfs for mounting Raspberry's file system over SSH. Linux command: ```sudo apt install sshfs```
 2. ```sudo mkdir /mnt/ender```
 3. Mount Raspberry's filesystem: ```sudo sshfs -o allow_other,default_permissions pi@octopi.local:/ /mnt/ender```
