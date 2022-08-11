@@ -174,7 +174,8 @@ Install sshfs (for mounting Raspberry's file system over SSH) to avoid serious m
 ## 9. Upload printer.cfg to raspberry
 https://www.klipper3d.org/Installation.html#configuring-klipper
 
-1. Use the configuration file in the repository: https://github.com/juldaani/Ender-5-plus/blob/main/printer-original-hardware.cfg to 
+1. Configuration file: https://github.com/juldaani/Ender-5-plus/blob/main/printer-original-hardware.cfg
+2. Rename to printer.cfg before using with Klipper
 
 <i>"After creating and editing the file it will be necessary to issue a "restart" command in the OctoPrint web terminal to load the config. A "status" command will report the printer is ready if the Klipper config file is successfully read and the micro-controller is successfully found and configured.
 
