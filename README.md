@@ -9,7 +9,8 @@ Installation instructions for Ender 5 Plus (original hardware):
 
 ### Shortcuts
 [Board wirings](https://github.com/juldaani/Ender-5-plus#board-wirings)
-[Installation and configuration of OctoPi+OctoPrint+Klipper]([https://github.com/juldaani/Ender-5-plus#board-wirings](https://github.com/juldaani/Ender-5-plus#install-octopioctoprintklipper-on-raspberry-pioctopus))
+
+[Installation and configuration of OctoPi+OctoPrint+Klipper](https://github.com/juldaani/Ender-5-plus#install-octopioctoprintklipper-on-raspberry-pioctopus)
 
 
 ### Links
