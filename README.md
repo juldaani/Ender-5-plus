@@ -135,15 +135,15 @@ https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Firmware/Kli
 9. Power on
 10. SSH into Raspberry
 11. ```cd ~/klipper/```
-12. "When flashing for the first time, make sure that OctoPrint is not connected directly to the printer (from the OctoPrint web page, under the "Connection" section, click "Disconnect")."
-13. "From your ssh session, run ```lsusb```. and find the ID of the dfu device. The device is typically named STM Device in DFU mode."
-14. "If you do not see a DFU device in the list, press the reset button next to the USB connector and run lsusb again."
-15. "Run ```make flash FLASH_DEVICE=1234:5678``` replace 1234:5678 with the ID from the previous step"
+12. <i>"When flashing for the first time, make sure that OctoPrint is not connected directly to the printer (from the OctoPrint web page, under the "Connection" section, click "Disconnect")."</i>
+13. <i>"From your ssh session, run ```lsusb```. and find the ID of the dfu device. The device is typically named STM Device in DFU mode."</i>
+14. <i>"If you do not see a DFU device in the list, press the reset button next to the USB connector and run lsusb again."</i>
+15. <i>"Run ```make flash FLASH_DEVICE=1234:5678``` replace 1234:5678 with the ID from the previous step"</i>
 16. Power everything off
 17. Remove jumper from BOOT0
 18. Power on
 19. SSH into Raspberry
-20. "You can confirm that the flash was successful, by running ```ls /dev/serial/by-id```. If the flash was successful, this should now show a klipper device, similar to: <br><img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/dfu_flash.png" width="450"> "
+20. <i>"You can confirm that the flash was successful, by running ```ls /dev/serial/by-id```. If the flash was successful, this should now show a klipper device, similar to: <br><img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/dfu_flash.png" width="450"> "</i>
 
 ## 6. Configure OctoPrint to use Klipper
 https://www.klipper3d.org/Installation.html#configuring-octoprint-to-use-klipper
@@ -162,14 +162,7 @@ https://www.klipper3d.org/Installation.html#configuring-klipper
 10. Open Terminal tab, type ```status``` and hit Send button.
 11. If everything is ok a "status" command will report the printer is ready if the Klipper config file is successfully read and the micro-controller is successfully found and configured: <br> <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/status.png" width="550">
 
-## 8. Upload printer.cfg to raspberry
-https://www.klipper3d.org/Installation.html#configuring-klipper
-
-"After creating and editing the file it will be necessary to issue a "restart" command in the OctoPrint web terminal to load the config. A "status" command will report the printer is ready if the Klipper config file is successfully read and the micro-controller is successfully found and configured.
-
-When customizing the printer.cfg file, it is not uncommon for Klipper to report a configuration error. If an error occurs, make any necessary corrections to the printer config file and issue "restart" until "status" reports the printer is ready."
-
-## 9. (Optional) Install sshfs
+## 8. (Optional) Install sshfs
 Install sshfs (for mounting Raspberry's file system over SSH) to avoid serious mental health issues with nano text editor when customizing printer.cfg.
 
 1. Install sshfs, Linux command: ```sudo apt install sshfs```
@@ -177,6 +170,15 @@ Install sshfs (for mounting Raspberry's file system over SSH) to avoid serious m
 3. Mount Raspberry's filesystem: ```sudo sshfs -o allow_other,default_permissions pi@octopi.local:/ /mnt/ender```
 4. Open printer configuration file with gedit: ```gedit /mnt/ender/home/pi/printer.cfg```
 5. Set gedit Highlight Mode to YAML to make the text more readable
+
+## 9. Upload printer.cfg to raspberry
+https://www.klipper3d.org/Installation.html#configuring-klipper
+
+<i>"After creating and editing the file it will be necessary to issue a "restart" command in the OctoPrint web terminal to load the config. A "status" command will report the printer is ready if the Klipper config file is successfully read and the micro-controller is successfully found and configured.
+
+When customizing the printer.cfg file, it is not uncommon for Klipper to report a configuration error. If an error occurs, make any necessary corrections to the printer config file and issue "restart" until "status" reports the printer is ready."</i>
+
+
 
 
 
