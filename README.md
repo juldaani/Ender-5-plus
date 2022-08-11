@@ -186,5 +186,7 @@ When customizing the printer.cfg file, it is not uncommon for Klipper to report 
 https://www.klipper3d.org/Config_checks.html
 
 ## 11. Calibrate
-BLTouch and nozzle offsets: [https://www.klipper3d.org/Config_checks.html](https://www.klipper3d.org/Probe_Calibrate.html)
-<i>"During calibration it may be necessary to set the printer's Z position_min to a negative number (eg, position_min = -2). The printer enforces boundary checks even during calibration routines. Setting a negative number allows the printer to move below the nominal position of the bed, which may help when trying to determine the actual bed position."</i>
+### BLTouch and nozzle offsets
+[https://www.klipper3d.org/Config_checks.html](https://www.klipper3d.org/Probe_Calibrate.html)
+
+<i>"During calibration it may be necessary to set the printer's Z position_min to a negative number (eg, position_min = -2). The printer enforces boundary checks even during calibration routines. Setting a negative number allows the printer to move below the nominal position of the bed, which may help when trying to determine the actual bed position."</i> <b>(change this in printer.cfg under [stepper_z] section)</b>
