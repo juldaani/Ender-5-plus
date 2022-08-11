@@ -7,6 +7,13 @@ Installation instructions for Ender 5 Plus (original hardware):
 - OctoPrint 1.8.1
 - Klipper
 
+### Shortcuts
+[Board wirings](https://github.com/juldaani/Ender-5-plus#board-wirings)
+
+[Installation and configuration of OctoPi+OctoPrint+Klipper](https://github.com/juldaani/Ender-5-plus#install-octopioctoprintklipper-on-raspberry-pioctopus)
+
+
+### Links
 Bigtreetech octopus github:
 (https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0)
 
@@ -174,11 +181,30 @@ Install sshfs (for mounting Raspberry's file system over SSH) to avoid serious m
 ## 9. Upload printer.cfg to raspberry
 https://www.klipper3d.org/Installation.html#configuring-klipper
 
+1. Configuration file: https://github.com/juldaani/Ender-5-plus/blob/main/printer-original-hardware.cfg
+2. Rename to "printer.cfg" before using with Klipper
+3. Update [mcu] section (https://github.com/juldaani/Ender-5-plus/blob/main/README.md#7-configure-klipper)
+
 <i>"After creating and editing the file it will be necessary to issue a "restart" command in the OctoPrint web terminal to load the config. A "status" command will report the printer is ready if the Klipper config file is successfully read and the micro-controller is successfully found and configured.
 
 When customizing the printer.cfg file, it is not uncommon for Klipper to report a configuration error. If an error occurs, make any necessary corrections to the printer config file and issue "restart" until "status" reports the printer is ready."</i>
 
+## 10. Do configuration checks
+https://www.klipper3d.org/Config_checks.html
+
+https://www.klipper3d.org/BLTouch.html#initial-tests
+
+## 11. Do calibrations and adjustments
+### BLTouch and nozzle offsets
+[https://www.klipper3d.org/Probe_Calibrate.html](https://www.klipper3d.org/Probe_Calibrate.html)
+
+<i>"During calibration it may be necessary to set the printer's Z position_min to a negative number (eg, position_min = -2). The printer enforces boundary checks even during calibration routines. Setting a negative number allows the printer to move below the nominal position of the bed, which may help when trying to determine the actual bed position."</i> <b>(change this in printer.cfg under [stepper_z] section)</b>
+
+### Bed tilt using bed levelling screws
+https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe
+
+### Bed mesh
+https://www.klipper3d.org/Bed_Mesh.html
 
 
-
-
+# Print mounts and install boards
