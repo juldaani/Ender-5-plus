@@ -26,7 +26,8 @@ https://www.makenprint.uk/3d-printing/3d-printing-guides/3d-printer-mainboard-in
 If there are any jumpers attached remove them before proceeding.
 
 ## 2. Set jumpers to UART mode for stepper motor drivers
-<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/uart-jumpers.png" width="650">
+mtp://HMD_Global_Nokia_8_NB1GAD1780406664/Internal%20shared%20storage/DCIM/Camera/IMG_20220811_184935.jpg
+mtp://HMD_Global_Nokia_8_NB1GAD1780406664/Internal%20shared%20storage/DCIM/Camera/IMG_20220811_184957.jpg
 
 ## 3. Wiring between PSU and board
 <img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/power_wiring.png" width="650">
@@ -208,5 +209,6 @@ https://www.klipper3d.org/Bed_Mesh.html
 
 
 # Print mounts and install boards
-
 FreeCAD and stl models: https://github.com/juldaani/Ender-5-plus/tree/main/3d-models
+
+<img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/mounts1.jpg" width="350"><img src="https://github.com/juldaani/Ender-5-plus/blob/main/pics/mounts2.jpg" width="350">
