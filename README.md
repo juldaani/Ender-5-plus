@@ -12,6 +12,8 @@ Installation instructions for Ender 5 Plus (original hardware):
 
 [Installation and configuration of OctoPi+OctoPrint+Klipper](https://github.com/juldaani/Ender-5-plus#install-octopioctoprintklipper-on-raspberry-pioctopus)
 
+[Physical installation of Octopus board and Raspberry Pi + 3D-models for mounts](https://github.com/juldaani/Ender-5-plus#print-mounts-and-install-boards)
+
 
 ### Links
 Bigtreetech octopus github:
