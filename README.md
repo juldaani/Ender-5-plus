@@ -208,3 +208,5 @@ https://www.klipper3d.org/Bed_Mesh.html
 
 
 # Print mounts and install boards
+
+FreeCAD and stl models: https://github.com/juldaani/Ender-5-plus/tree/main/3d-models
