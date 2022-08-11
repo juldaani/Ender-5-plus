@@ -7,6 +7,12 @@ Installation instructions for Ender 5 Plus (original hardware):
 - OctoPrint 1.8.1
 - Klipper
 
+### Shortcuts
+[Board wirings](https://github.com/juldaani/Ender-5-plus#board-wirings)
+[Installation and configuration of OctoPi+OctoPrint+Klipper]([https://github.com/juldaani/Ender-5-plus#board-wirings](https://github.com/juldaani/Ender-5-plus#install-octopioctoprintklipper-on-raspberry-pioctopus))
+
+
+### Links
 Bigtreetech octopus github:
 (https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0)
 
